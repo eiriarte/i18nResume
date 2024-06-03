@@ -1,0 +1,576 @@
+{
+  "es": {
+    "strings": {
+      "work": "Experiencia",
+      "volunteer": "Voluntariado",
+      "education": "Formación",
+      "awards": "Premios",
+      "certificates": "Certificados",
+      "publications": "Publicaciones",
+      "skills": "Habilidades",
+      "languages": "Idiomas",
+      "interests": "Intereses",
+      "references": "Referencias",
+      "projects": "Proyectos",
+      "imageAlt": "Mi foto",
+      "score": "Calificación",
+      "level": "Nivel",
+      "contact": "Datos personales",
+      "address": "Dirección",
+      "phone": "Teléfono",
+      "email": "Correo-e",
+      "externalLink": "Enlace externo",
+      "present": "Actual"
+    },
+    "resume": {
+      "basics": {
+        "name": "Mary Wollstonecraft Shelley",
+        "label": "Escritora",
+        "image": "/mary_shelley_cv.png",
+        "email": "maryshelley@literature.com",
+        "phone": "(123) 456-7890",
+        "url": "http://shelleygodwinarchive.org/",
+        "summary": "Novelista inglesa conocida por la novela gótica «Frankenstein». También he escrito muchas otras obras, incluyendo novelas históricas, poesía, libros de viajes y biografías.",
+        "location": {
+          "address": "24 Chester Square",
+          "postalCode": "SW1W 9DS",
+          "city": "Londres",
+          "countryCode": "GB",
+          "region": "Inglaterra"
+        },
+        "profiles": [
+          {
+            "network": "Twitter",
+            "username": "M_Shelley_OFB",
+            "url": "https://twitter.com/M_Shelley_OFB"
+          }
+        ]
+      },
+      "work": [
+        {
+          "name": "Escritora Independiente",
+          "position": "Autora",
+          "url": "https://www.gutenberg.org/ebooks/author/61",
+          "startDate": "1816",
+          "endDate": "1851",
+          "summary": "Autora de varias novelas, cuentos, poemas, biografías y narrativas de viajes. Más conocida por mi novela 'Frankenstein'.",
+          "keywords": ["fiction", "nonfiction"],
+          "highlights": [
+            "Publiqué 'Frankenstein' en 1818",
+            "Publiqué 'El último hombre' en 1826",
+            "Publiqué 'Las fortunas de Perkin Warbeck' en 1830"
+          ]
+        }
+      ],
+      "volunteer": [
+        {
+          "organization": "Sociedades Literarias",
+          "position": "Miembro",
+          "url": "",
+          "startDate": "1815",
+          "endDate": "1851",
+          "summary": "Participó activamente en círculos literarios, contribuyendo al discurso y promoción de las artes literarias.",
+          "keywords": ["fiction"],
+          "highlights": [
+            "Asistía regularmente a las reuniones literarias de Lord Byron y Percy Bysshe Shelley",
+            "Apoyó y promovió a escritores y poetas emergentes"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Autodidacta",
+          "area": "Literatura, Filosofía, Historia",
+          "studyType": "Educación Informal",
+          "startDate": "1815",
+          "endDate": "1820",
+          "score": "",
+          "keywords": ["fiction", "nonfiction"],
+          "courses": [
+            "Lectura extensiva de literatura clásica y obras contemporáneas",
+            "Estudié obras de filósofos como John Locke y Jean-Jacques Rousseau",
+            "Aprendí francés, italiano y algo de español.",
+            "Aprendí griego y latín."
+          ]
+        },
+        {
+          "institution": "Hogar paterno",
+          "url": "https://www.britannica.com/topic/homeschooling",
+          "area": "Alfabetización básica",
+          "studyType": "Informal Education",
+          "startDate": "1800",
+          "endDate": "1815",
+          "score": "",
+          "keywords": ["fiction"],
+          "courses": [
+            "Aprendí a leer y a escribir.",
+            "Amplias lecturas literarias."
+          ]
+        }
+      ],
+      "awards": [
+        {
+          "title": "Reconocida Madre de la Ciencia Ficción",
+          "date": "1851",
+          "awarder": "Comunidad Literaria",
+          "keywords": ["fiction"],
+          "summary": "Reconocida póstumamente como una figura fundamental en el género de la ciencia ficción."
+        }
+      ],
+      "certificates": [
+        {
+          "name": "Certificado de Matrimonio",
+          "date": "1816-12-30",
+          "issuer": "Iglesia de St. Mildred, Londres",
+          "keywords": ["matrimonial"],
+          "url": ""
+        }
+      ],
+      "publications": [
+        {
+          "name": "Frankenstein; o el moderno Prometeo",
+          "publisher": "Lackington, Hughes, Harding, Mavor & Jones",
+          "releaseDate": "1818-01",
+          "url": "https://www.gutenberg.org/ebooks/84",
+          "keywords": ["fiction"],
+          "summary": "Una novela sobre un científico que crea una criatura sensible a través de experimentos científicos no ortodoxos."
+        },
+        {
+          "name": "El último hombre",
+          "publisher": "Henry Colburn",
+          "releaseDate": "1826-02",
+          "url": "https://www.gutenberg.org/ebooks/18247",
+          "keywords": ["fiction"],
+          "summary": "Una novela de ciencia ficción distópica ambientada a finales del siglo XXI, que detalla la vida del último sobreviviente de una plaga global."
+        },
+        {
+          "name": "Vidas de los literatos y científicos más eminentes de Francia, Vol. II",
+          "releaseDate": "1838",
+          "url": "https://archive.org/details/eminentliterarys02lard",
+          "keywords": ["nonfiction"],
+          "summary": "Biografías de importantes escritores y pensadores de los siglos XIV al XVIII."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Ciencia ficción",
+          "level": "100",
+          "keywords": ["fiction"]
+        },
+        {
+          "name": "Terror",
+          "level": "100",
+          "keywords": ["fiction"]
+        },
+        {
+          "name": "Histórica",
+          "level": "90",
+          "keywords": ["nonfiction"]
+        },
+        {
+          "name": "Poesía",
+          "level": "100",
+          "keywords": ["fiction", "nonfiction"]
+        },
+        {
+          "name": "Lit. viajes",
+          "level": "90",
+          "keywords": ["nonfiction"]
+        },
+        {
+          "name": "Traducción",
+          "level": "80",
+          "keywords": ["languages"]
+        },
+        {
+          "name": "Biografía",
+          "level": "80",
+          "keywords": ["nonfiction"]
+        }
+      ],
+      "languages": [
+        {
+          "language": "Inglés",
+          "fluency": "100",
+          "keywords": ["languages"]
+        },
+        {
+          "language": "Italiano",
+          "fluency": "85",
+          "keywords": ["languages"]
+        },
+        {
+          "language": "Francés",
+          "fluency": "85",
+          "keywords": ["languages"]
+        },
+        {
+          "language": "Español",
+          "fluency": "70",
+          "keywords": ["languages"]
+        },
+        {
+          "language": "Griego",
+          "fluency": "70",
+          "keywords": ["languages"]
+        },
+        {
+          "language": "Latín",
+          "fluency": "70",
+          "keywords": ["languages"]
+        }
+      ],
+      "interests": [
+        {
+          "name": "Viajes",
+          "keywords": ["nature", "cultures"]
+        },
+        {
+          "name": "Filosofía",
+          "keywords": ["humanities"]
+        },
+        {
+          "name": "Senderismo",
+          "keywords": ["nature"]
+        },
+        {
+          "name": "Debate",
+          "keywords": ["critical-thinking"]
+        }
+      ],
+      "references": [
+        {
+          "name": "Percy Bysshe Shelley",
+          "reference": "Mi querida Mary tiene una mente extraordinaria y un talento literario sin igual. Sus escritos poseen tanto profundidad como un poder imaginativo único.",
+          "keywords": ["fiction"]
+        },
+        {
+          "name": "Lord Byron",
+          "reference": "El trabajo de Mary Shelley, particularmente 'Frankenstein', es un testimonio de su genialidad y su profunda comprensión de la naturaleza humana y la ambición.",
+          "keywords": ["fiction"]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Frankenstein; o el moderno Prometeo",
+          "startDate": "1816",
+          "endDate": "1817",
+          "description": "Una novela innovadora que explora temas de ambición, creación y las responsabilidades de un creador.",
+          "highlights": [
+            "Concebida durante el verano de 1816, conocido como el 'Año sin verano'.",
+            "Inspirada por discusiones sobre el galvanismo y la naturaleza de la vida."
+          ],
+          "keywords": ["fiction"],
+          "url": ""
+        },
+        {
+          "name": "El último hombre",
+          "startDate": "1824",
+          "endDate": "1826",
+          "description": "Una novela post-apocalíptica que explora temas de aislamiento, la fragilidad de la civilización humana y la pérdida personal.",
+          "highlights": [
+            "Considerada uno de los primeros ejemplos de literatura distópica.",
+            "Refleja tragedias y pérdidas personales, incluidas las muertes de su esposo y amigos."
+          ],
+          "keywords": ["fiction"],
+          "url": ""
+        },
+        {
+          "name": "Vida de William Godwin",
+          "startDate": "1835",
+          "endDate": "",
+          "description": "Biografía de mi padre, autor de «Justicia política».",
+          "keywords": ["nonfiction"],
+          "url": "https://ses.library.usyd.edu.au/handle/2123/27215"
+        }
+      ]
+    }
+  },
+  "en": {
+    "strings": {
+      "work": "Experience",
+      "volunteer": "Volunteer",
+      "education": "Education",
+      "awards": "Awards",
+      "certificates": "Certificates",
+      "publications": "Publications",
+      "skills": "Skills",
+      "languages": "Languages",
+      "interests": "Interests",
+      "references": "References",
+      "projects": "Projects",
+      "imageAlt": "My photo",
+      "score": "Score",
+      "level": "Level",
+      "contact": "Contact information",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "externalLink": "External link",
+      "present": "Present"
+    },
+    "resume": {
+      "basics": {
+        "name": "Mary Wollstonecraft Shelley",
+        "label": "Author",
+        "image": "/mary_shelley_cv.png",
+        "email": "maryshelley@literature.com",
+        "phone": "(123) 456-7890",
+        "url": "http://shelleygodwinarchive.org/",
+        "summary": "I'm a novelist best known for my Gothic novel 'Frankenstein'. I also authored several other works, including historical novels, poems, travel books, and biographies.",
+        "location": {
+          "address": "24 Chester Square",
+          "postalCode": "SW1W 9DS",
+          "city": "London",
+          "countryCode": "GB",
+          "region": "England"
+        },
+        "profiles": [
+          {
+            "network": "Twitter",
+            "username": "M_Shelley_OFB",
+            "url": "https://twitter.com/M_Shelley_OFB"
+          }
+        ]
+      },
+      "work": [
+        {
+          "name": "Freelance Writer",
+          "position": "Author",
+          "url": "https://www.gutenberg.org/ebooks/author/61",
+          "startDate": "1816",
+          "endDate": "1851",
+          "summary": "Authored several novels, short stories, poems, biographies, and travel narratives. Best known for the novel 'Frankenstein'.",
+          "highlights": [
+            "Published 'Frankenstein' in 1818",
+            "Published 'The Last Man' in 1826",
+            "Published 'The Fortunes of Perkin Warbeck' in 1830"
+          ],
+          "keywords": ["fiction", "nonfiction"]
+        }
+      ],
+      "volunteer": [
+        {
+          "organization": "Literary Societies",
+          "position": "Member",
+          "url": "",
+          "startDate": "1815-01-01",
+          "endDate": "1851-02-01",
+          "summary": "Actively participated in literary circles, contributing to the discourse and promotion of literary arts.",
+          "keywords": ["fiction"],
+          "highlights": [
+            "Regular attendee of Lord Byron’s and Percy Bysshe Shelley’s literary gatherings",
+            "Supported and promoted emerging writers and poets"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Self-Educated",
+          "area": "Literature, Philosophy, History",
+          "studyType": "Informal Education",
+          "startDate": "1815",
+          "endDate": "1820",
+          "score": "",
+          "keywords": ["fiction", "nonfiction"],
+          "courses": [
+            "Extensive reading of classical literature and contemporary works.",
+            "Studied the works of philosophers such as John Locke and Jean-Jacques Rousseau.",
+            "Learned French, Italian and some Spanish.",
+            "Learned Greek and Latin."
+          ]
+        },
+        {
+          "institution": "Homeschooling",
+          "url": "https://www.britannica.com/topic/homeschooling",
+          "area": "Basic literacy",
+          "studyType": "Informal Education",
+          "startDate": "1800",
+          "endDate": "1815",
+          "score": "",
+          "keywords": ["fiction"],
+          "courses": [
+            "Learned to read an write.",
+            "Extensive literary reading."
+          ]
+        }
+      ],
+      "awards": [
+        {
+          "title": "Acknowledged Mother of Science Fiction",
+          "date": "1851",
+          "awarder": "Literary Community",
+          "keywords": ["fiction"],
+          "summary": "Posthumously recognized as a foundational figure in the science fiction genre."
+        }
+      ],
+      "certificates": [
+        {
+          "name": "Marriage Certificate",
+          "date": "1816-12-30",
+          "issuer": "St. Mildred's Church, London",
+          "keywords": ["matrimonial"],
+          "url": ""
+        }
+      ],
+      "publications": [
+        {
+          "name": "Frankenstein; or, The Modern Prometheus",
+          "publisher": "Lackington, Hughes, Harding, Mavor & Jones",
+          "releaseDate": "1818-01",
+          "url": "https://www.gutenberg.org/ebooks/84",
+          "keywords": ["fiction"],
+          "summary": "A novel about a scientist who creates a sentient creature through unorthodox scientific experiments."
+        },
+        {
+          "name": "The Last Man",
+          "publisher": "Henry Colburn",
+          "releaseDate": "1826-02",
+          "url": "https://www.gutenberg.org/ebooks/18247",
+          "keywords": ["fiction"],
+          "summary": "A dystopian science fiction novel set in the late 21st century, detailing the life of the last survivor of a global plague."
+        },
+        {
+          "name": "Lives of the most Eminent Literary and Scientific Men of France, Vol. II",
+          "releaseDate": "1838",
+          "url": "https://archive.org/details/eminentliterarys02lard",
+          "keywords": ["nonfiction"],
+          "summary": "Biographies of important writers and thinkers of the 14th to 18th centuries"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Sci-fi",
+          "level": "100",
+          "keywords": ["fiction"]
+        },
+        {
+          "name": "Horror",
+          "level": "100",
+          "keywords": ["fiction"]
+        },
+        {
+          "name": "Historical",
+          "level": "90",
+          "keywords": ["nonfiction"]
+        },
+        {
+          "name": "Poetry",
+          "level": "100",
+          "keywords": ["fiction", "nonfiction"]
+        },
+        {
+          "name": "Travelogue",
+          "level": "90",
+          "keywords": ["nonfiction"]
+        },
+        {
+          "name": "Translation",
+          "level": "80",
+          "keywords": ["languages"]
+        },
+        {
+          "name": "Biography",
+          "level": "80",
+          "keywords": ["nonfiction"]
+        }
+      ],
+      "languages": [
+        {
+          "language": "English",
+          "fluency": "100",
+          "keywords": ["languages"]
+        },
+        {
+          "language": "Italian",
+          "fluency": "85",
+          "keywords": ["languages"]
+        },
+        {
+          "language": "French",
+          "fluency": "85",
+          "keywords": ["languages"]
+        },
+        {
+          "language": "Spanish",
+          "fluency": "70",
+          "keywords": ["languages"]
+        },
+        {
+          "language": "Greek",
+          "fluency": "70",
+          "keywords": ["languages"]
+        },
+        {
+          "language": "Latin",
+          "fluency": "70",
+          "keywords": ["languages"]
+        }
+      ],
+      "interests": [
+        {
+          "name": "Travel",
+          "keywords": ["nature", "cultures"]
+        },
+        {
+          "name": "Philosophy",
+          "keywords": ["humanities"]
+        },
+        {
+          "name": "Hiking",
+          "keywords": ["nature"]
+        },
+        {
+          "name": "Debate",
+          "keywords": ["critical-thinking"]
+        }
+      ],
+      "references": [
+        {
+          "name": "Percy Bysshe Shelley",
+          "reference": "My dearest Mary has an extraordinary mind and unparalleled literary talent. Her writings possess both depth and a unique imaginative power.",
+          "keywords": ["fiction"]
+        },
+        {
+          "name": "Lord Byron",
+          "reference": "Mary Shelley's work, particularly 'Frankenstein', is a testament to her genius and her profound understanding of human nature and ambition.",
+          "keywords": ["fiction"]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Frankenstein; or, The Modern Prometheus",
+          "startDate": "1816",
+          "endDate": "1817",
+          "description": "A groundbreaking novel that explores themes of ambition, creation, and the responsibilities of a creator.",
+          "highlights": [
+            "Conceived during the summer of 1816, known as the 'Year Without a Summer'",
+            "Inspired by discussions on galvanism and the nature of life"
+          ],
+          "keywords": ["fiction"],
+          "url": "https://www.gutenberg.org/ebooks/84"
+        },
+        {
+          "name": "The Last Man",
+          "startDate": "1824",
+          "endDate": "1826",
+          "description": "A post-apocalyptic novel exploring themes of isolation, the fragility of human civilization, and personal loss.",
+          "highlights": [
+            "Considered one of the earliest examples of dystopian literature",
+            "Reflects personal tragedies and loss, including the deaths of her husband and friends"
+          ],
+          "keywords": ["fiction"],
+          "url": "https://www.gutenberg.org/ebooks/18247"
+        },
+        {
+          "name": "Life of William Godwin",
+          "startDate": "1835",
+          "endDate": "",
+          "description": "Biography of my father, author of An Enquiry concerning Political Justice.",
+          "keywords": ["nonfiction"],
+          "url": "https://ses.library.usyd.edu.au/handle/2123/27215"
+        }
+      ]
+    }
+  }
+}
