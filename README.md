@@ -7,6 +7,8 @@ React component to render multilanguage [json-resume](https://jsonresume.org/) c
 - Switch between the available languages in your data.
 - Filter your resume to show only items with certain keywords attached.
 - Collapsible sections to hide non-relevant items.
+- Mobile-first responsive design.
+- Accessibility aware.
 - Typed with TypeScript.
 
 ## Usage
