@@ -1,8 +1,6 @@
-
 # i18nresume
 
 React component to render multilanguage [json-resume](https://jsonresume.org/) compliant data.
-
 
 ## Features
 
@@ -11,17 +9,17 @@ React component to render multilanguage [json-resume](https://jsonresume.org/) c
 - Collapsible sections to hide non-relevant items.
 - Typed with TypeScript.
 
-
 ## Usage
 
 ```javascript
-import I18NResume from 'i18nresume';
+import I18NResume from "i18nresume";
 import resumes from "./assets/my_resumes.json";
 
-const locale="es";
+const locale = "es";
+const keywords = ["backend", "devops"];
 
 function App() {
-  return <I18NResume data={resumes} locale={locale} filter={keywords} />
+  return <I18NResume data={resumes} locale={locale} filter={keywords} />;
 }
 ```
 
@@ -45,16 +43,19 @@ h2 {
 ## Development
 
 ### Installation
+
 ```shell
 npm install
 ```
 
 ### Development
+
 ```shell
 npm run dev
 ```
 
 ### Packaging
+
 ```shell
 npm run build
 ```
