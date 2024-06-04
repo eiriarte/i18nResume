@@ -18,5 +18,7 @@
   "phone": "Phone",
   "email": "Email",
   "externalLink": "External link",
-  "present": "Present"
+  "present": "Present",
+  "collapse": "Collapse section",
+  "expand": "Expand section"
 }

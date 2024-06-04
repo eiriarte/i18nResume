@@ -20,7 +20,9 @@
       "phone": "Teléfono",
       "email": "Correo-e",
       "externalLink": "Enlace externo",
-      "present": "Actual"
+      "present": "Actual",
+      "collapse": "Contraer sección",
+      "expand": "Expandir sección"
     },
     "resume": {
       "basics": {
@@ -307,7 +309,9 @@
       "phone": "Phone",
       "email": "Email",
       "externalLink": "External link",
-      "present": "Present"
+      "present": "Present",
+      "collapse": "Collapse section",
+      "expand": "Expand section"
     },
     "resume": {
       "basics": {
