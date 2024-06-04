@@ -9,6 +9,7 @@ React component to render multilanguage [json-resume](https://jsonresume.org/) c
 - Collapsible sections to hide non-relevant items.
 - Mobile-first responsive design.
 - Accessibility aware.
+- Zero dependencies (besides React, of course)
 - Typed with TypeScript.
 
 ## Usage
@@ -16,6 +17,7 @@ React component to render multilanguage [json-resume](https://jsonresume.org/) c
 ```javascript
 import I18NResume from "i18nresume";
 import resumes from "./assets/my_resumes.json";
+import "../node_modules/i18nresume/dist/style.css";
 
 const locale = "es";
 const keywords = ["backend", "devops"];

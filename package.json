@@ -1,16 +1,21 @@
 {
   "name": "i18nresume",
-  "author": "Eduardo Iriarte Gahete",
+  "version": "0.0.1-alpha.1",
   "description": "React component to render json-resume data in different languages.",
+  "author": "Eduardo Iriarte Gahete",
+  "type": "module",
   "license": "MIT",
   "keywords": [
     "CV",
     "resume",
+    "json-resume",
     "React",
     "i18n"
   ],
-  "version": "0.0.1-alpha.1",
-  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eiriarte/i18nresume"
+  },
   "files": [
     "dist"
   ],
@@ -57,7 +62,6 @@
     "eslint-plugin-react-refresh": "^0.4.6",
     "jsdom": "^24.1.0",
     "postcss": "^8.4.38",
-    "postcss-nested": "^6.0.1",
     "tailwindcss": "^3.4.3",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",

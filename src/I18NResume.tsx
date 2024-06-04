@@ -38,7 +38,11 @@ export const LocaleContext = createContext<ILocaleContext>({
 
 export const FilterContext = createContext<string[]>([]);
 
-export default function I18NResume({ data, locale, filter }: I18NResumeProps) {
+export default function I18NResume({
+  data,
+  locale = "en",
+  filter,
+}: I18NResumeProps) {
   const resume: Resume = addKeys(data[locale].resume);
   const strings = data[locale].strings;
   const basics = resume.basics ?? {};
