@@ -15,7 +15,7 @@ export default function SectionContact({
   const localeContext = useContext(LocaleContext);
   const lang = localeContext.locale;
   return (
-    <CollapsibleSection heading={localeContext.strings.contact}>
+    <CollapsibleSection id="contact" heading={localeContext.strings.contact}>
       <address className="not-italic">
         <ul className="space-y-2">
           {basics.email && (

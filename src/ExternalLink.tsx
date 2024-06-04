@@ -22,6 +22,7 @@ export default function ExternalLink({ text, href }: ExternalLinkProps) {
           aria-label={localeContext.strings.externalLink}
         >
           <svg
+            role="img"
             xmlns="http://www.w3.org/2000/svg"
             height={20}
             width={20}

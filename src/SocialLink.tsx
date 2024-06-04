@@ -19,6 +19,7 @@ export default function SocialLink({ profile }: { profile: Profile }) {
 const twitter = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
+    role="img"
     height={24}
     width={24}
     viewBox="0 0 24 24"
@@ -34,6 +35,7 @@ var networks = new Map([
     "email",
     <svg
       xmlns="http://www.w3.org/2000/svg"
+      role="img"
       height={24}
       width={24}
       viewBox="0 0 20 20"
@@ -47,6 +49,7 @@ var networks = new Map([
     "whatsapp",
     <svg
       xmlns="http://www.w3.org/2000/svg"
+      role="img"
       height={24}
       width={24}
       viewBox="0 0 24 24"
@@ -59,6 +62,7 @@ var networks = new Map([
     "telegram",
     <svg
       xmlns="http://www.w3.org/2000/svg"
+      role="img"
       height={24}
       width={24}
       viewBox="0 0 24 24"
@@ -71,6 +75,7 @@ var networks = new Map([
     "personal",
     <svg
       xmlns="http://www.w3.org/2000/svg"
+      role="img"
       height={24}
       width={24}
       viewBox="0 0 20 20"
@@ -85,6 +90,7 @@ var networks = new Map([
     "facebook",
     <svg
       xmlns="http://www.w3.org/2000/svg"
+      role="img"
       height={24}
       width={24}
       viewBox="0 0 24 24"
@@ -97,6 +103,7 @@ var networks = new Map([
     "linkedin",
     <svg
       xmlns="http://www.w3.org/2000/svg"
+      role="img"
       height={24}
       width={24}
       viewBox="0 0 24 24"
@@ -109,6 +116,7 @@ var networks = new Map([
     "github",
     <svg
       xmlns="http://www.w3.org/2000/svg"
+      role="img"
       height={24}
       width={24}
       viewBox="0 0 24 24"
@@ -121,6 +129,7 @@ var networks = new Map([
     "stack overflow",
     <svg
       xmlns="http://www.w3.org/2000/svg"
+      role="img"
       height={24}
       width={24}
       viewBox="0 0 24 24"
@@ -133,6 +142,7 @@ var networks = new Map([
     "instagram",
     <svg
       xmlns="http://www.w3.org/2000/svg"
+      role="img"
       height={24}
       width={24}
       viewBox="0 0 24 24"
@@ -146,6 +156,7 @@ var networks = new Map([
 var unknown = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
+    role="img"
     height={20}
     width={20}
     viewBox="0 0 20 20"

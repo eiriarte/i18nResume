@@ -14,7 +14,10 @@ export default function SectionVolunteer({
   if (!volunteer?.length) return null;
   const localeContext = useContext(LocaleContext);
   return (
-    <CollapsibleSection heading={localeContext.strings.volunteer}>
+    <CollapsibleSection
+      id="volunteer"
+      heading={localeContext.strings.volunteer}
+    >
       <div className="space-y-2">
         {volunteer.map((work) => (
           <section key={work.key as string}>

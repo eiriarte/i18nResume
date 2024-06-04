@@ -13,7 +13,10 @@ export default function SectionInterests({
   if (!interests?.length) return null;
   const localeContext = useContext(LocaleContext);
   return (
-    <CollapsibleSection heading={localeContext.strings.interests}>
+    <CollapsibleSection
+      id="interests"
+      heading={localeContext.strings.interests}
+    >
       <div className="flex flex-wrap">
         {interests.map((interest) => (
           <OpacityFilter

@@ -14,7 +14,7 @@ export default function SectionProjects({
   if (!projects?.length) return null;
   const localeContext = useContext(LocaleContext);
   return (
-    <CollapsibleSection heading={localeContext.strings.projects}>
+    <CollapsibleSection id="projects" heading={localeContext.strings.projects}>
       <div className="space-y-2">
         {projects.map((project) => (
           <section key={project.key as string}>

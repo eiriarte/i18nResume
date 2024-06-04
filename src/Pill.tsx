@@ -13,6 +13,7 @@ export default function Pill({ name, level = null }: PillProps) {
     return (
       <span className="mt-2 mr-2 inline-flex items-center rounded-full bg-indigo-50 pr-2 text-indigo-600 lg:text-indigo-50 lg:bg-indigo-500 ring-1 ring-inset ring-indigo-500/10 truncate">
         <svg
+          role="img"
           width={25}
           height={25}
           viewBox="0 0 50 50"

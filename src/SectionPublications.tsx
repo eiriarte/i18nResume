@@ -14,7 +14,7 @@ export default function SectionPublications({
   if (!publications?.length) return null;
   const localeContext = useContext(LocaleContext);
   return (
-    <CollapsibleSection heading={localeContext.strings.publications}>
+    <CollapsibleSection id="pubs" heading={localeContext.strings.publications}>
       <ul className="list-disc pl-4">
         {publications.map((publication) => (
           <li key={publication.key as string}>

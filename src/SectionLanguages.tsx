@@ -13,7 +13,7 @@ export default function SectionLanguages({
   if (!languages?.length) return null;
   const localeContext = useContext(LocaleContext);
   return (
-    <CollapsibleSection heading={localeContext.strings.languages}>
+    <CollapsibleSection id="langs" heading={localeContext.strings.languages}>
       <div className="flex flex-wrap">
         {languages.map((language) => (
           <OpacityFilter

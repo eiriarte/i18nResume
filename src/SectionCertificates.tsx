@@ -15,7 +15,7 @@ export default function SectionCertificates({
   const localeContext = useContext(LocaleContext);
   const locale = localeContext.locale;
   return (
-    <CollapsibleSection heading={localeContext.strings.certificates}>
+    <CollapsibleSection id="certs" heading={localeContext.strings.certificates}>
       <ul className="list-disc pl-4">
         {certificates.map((certificate) => (
           <li key={certificate.key as string}>

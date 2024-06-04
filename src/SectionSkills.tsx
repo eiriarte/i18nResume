@@ -13,7 +13,7 @@ export default function SectionSkills({
   if (!skills?.length) return null;
   const localeContext = useContext(LocaleContext);
   return (
-    <CollapsibleSection heading={localeContext.strings.skills}>
+    <CollapsibleSection id="skills" heading={localeContext.strings.skills}>
       <div className="flex flex-wrap">
         {skills.map((skill) => (
           <OpacityFilter

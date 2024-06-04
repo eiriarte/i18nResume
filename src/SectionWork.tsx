@@ -10,7 +10,7 @@ export default function SectionWork({ work }: { work: Work[] | undefined }) {
   if (!work?.length) return null;
   const localeContext = useContext(LocaleContext);
   return (
-    <CollapsibleSection heading={localeContext.strings.work}>
+    <CollapsibleSection id="work" heading={localeContext.strings.work}>
       <div className="space-y-2">
         {work.map((job) => (
           <OpacityFilter key={job.key as string} keywords={job.keywords ?? []}>

@@ -3,7 +3,6 @@ import { FilterContext } from "./I18NResume";
 
 interface OpacityFilterProps {
   keywords: string[];
-  children: React.ReactNode;
   inline?: boolean;
 }
 
@@ -11,7 +10,7 @@ export default function OpacityFilter({
   keywords,
   children,
   inline = false,
-}: OpacityFilterProps) {
+}: React.PropsWithChildren<OpacityFilterProps>) {
   const style = inline ? { display: "inline" } : undefined;
   const query = useContext(FilterContext) ?? [];
   let opaque = true;

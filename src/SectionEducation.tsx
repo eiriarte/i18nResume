@@ -15,7 +15,7 @@ export default function SectionEducation({
   const localeContext = useContext(LocaleContext);
   const strings = localeContext.strings;
   return (
-    <CollapsibleSection heading={strings.education}>
+    <CollapsibleSection id="education" heading={strings.education}>
       <div className="space-y-2">
         {education.map((training) => (
           <OpacityFilter

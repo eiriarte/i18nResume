@@ -19,6 +19,8 @@ export interface Strings {
   email: string;
   externalLink: string;
   present: string;
+  collapse: string;
+  expand: string;
 }
 
 export interface Location {

@@ -14,7 +14,7 @@ export default function SectionAwards({
   const localeContext = useContext(LocaleContext);
   const locale = localeContext.locale;
   return (
-    <CollapsibleSection heading={localeContext.strings.awards}>
+    <CollapsibleSection id="awards" heading={localeContext.strings.awards}>
       <ul className="list-disc pl-4">
         {awards.map((award) => (
           <li key={award.key as string}>
