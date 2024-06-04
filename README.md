@@ -50,10 +50,16 @@ h2 {
 npm install
 ```
 
-### Development
+### Dev server
 
 ```shell
 npm run dev
+```
+
+### Running the tests
+
+```shell
+npm test
 ```
 
 ### Packaging
