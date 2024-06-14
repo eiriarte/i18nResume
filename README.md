@@ -20,7 +20,7 @@ React component to render multilanguage [json-resume](https://jsonresume.org/) c
 Install i18nResume with npm (or your package manager of choice):
 
 ```bash
-  npm install i18nresume@next
+  npm install i18nresume
 ```
 
 ## Usage
