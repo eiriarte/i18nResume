@@ -1,4 +1,4 @@
-# i18nresume
+# i18nResume
 
 React component to render multilanguage [json-resume](https://jsonresume.org/) compliant data.
 
@@ -7,10 +7,21 @@ React component to render multilanguage [json-resume](https://jsonresume.org/) c
 - Switch between the available languages in your data.
 - Filter your resume to show only items with certain keywords attached.
 - Collapsible sections to hide non-relevant items.
+- Automatically use brand icons for profiles in the following: Whatsapp, Telegram, X (Twitter), Instagram, Facebook, LinkedIn, Github, Stack Overflow.
+- It allows you to add your photo (beware, though, that photos in CVs can lead to discrimination).
 - Mobile-first responsive design.
-- Accessibility aware.
+- Built with accessibility in mind.
+- If no photo is specified, a nice "CV" motif will be used instead.
 - Zero dependencies (besides React, of course)
 - Typed with TypeScript.
+
+## Installation
+
+Install i18nResume with npm (or your package manager of choice):
+
+```bash
+  npm install i18nresume@next
+```
 
 ## Usage
 
