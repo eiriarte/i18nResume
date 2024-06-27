@@ -10,8 +10,8 @@ export default function SectionSkills({
 }: {
   skills: Skill[] | undefined;
 }) {
-  if (!skills?.length) return null;
   const localeContext = useContext(LocaleContext);
+  if (!skills?.length) return null;
   return (
     <CollapsibleSection id="skills" heading={localeContext.strings.skills}>
       <div className="flex flex-wrap">

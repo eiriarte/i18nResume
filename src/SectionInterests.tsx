@@ -10,8 +10,8 @@ export default function SectionInterests({
 }: {
   interests: Interest[] | undefined;
 }) {
-  if (!interests?.length) return null;
   const localeContext = useContext(LocaleContext);
+  if (!interests?.length) return null;
   return (
     <CollapsibleSection
       id="interests"

@@ -1,6 +1,14 @@
 "use client";
 
-import type { Resume, Strings, TranslatedResume } from "./interfaces";
+import type {
+  EducationWithKeys,
+  ProjectWithKeys,
+  Resume,
+  Strings,
+  TranslatedResume,
+  VolunteerWithKeys,
+  WorkWithKeys,
+} from "./interfaces";
 import { createContext } from "react";
 import { addKeys } from "./utils";
 import SocialLink from "./SocialLink";
@@ -101,12 +109,24 @@ export default function I18NResume({
             <LocaleContext.Provider value={{ strings, locale }}>
               <FilterContext.Provider value={filter ?? []}>
                 <div className="p-4 pb-0 sm:p-8 sm:pb-0 md:pb-0 lg:pb-8 lg:basis-2/3">
-                  <SectionWork work={resume.work} />
+                  <SectionWork
+                    work={resume.work as unknown as WorkWithKeys[]}
+                  />
                   <SectionPublications publications={resume.publications} />
-                  <SectionProjects projects={resume.projects} />
-                  <SectionVolunteer volunteer={resume.volunteer} />
+                  <SectionProjects
+                    projects={resume.projects as unknown as ProjectWithKeys[]}
+                  />
+                  <SectionVolunteer
+                    volunteer={
+                      resume.volunteer as unknown as VolunteerWithKeys[]
+                    }
+                  />
                   <SectionCertificates certificates={resume.certificates} />
-                  <SectionEducation education={resume.education} />
+                  <SectionEducation
+                    education={
+                      resume.education as unknown as EducationWithKeys[]
+                    }
+                  />
                 </div>
                 <aside className="p-4 pt-0 sm:p-8 sm:pt-0 md:pt-0 lg:pt-8 lg:bg-stone-200 lg:basis-1/3 overflow-x-auto">
                   <SectionContact basics={basics} />

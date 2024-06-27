@@ -1,4 +1,4 @@
-import type { Project } from "./interfaces";
+import type { ProjectWithKeys } from "./interfaces";
 import { useContext } from "react";
 import CollapsibleSection from "./CollapsibleSection";
 import ExternalLink from "./ExternalLink";
@@ -9,10 +9,10 @@ import OpacityFilter from "./OpacityFilter";
 export default function SectionProjects({
   projects,
 }: {
-  projects: Project[] | undefined;
+  projects: ProjectWithKeys[] | undefined;
 }) {
-  if (!projects?.length) return null;
   const localeContext = useContext(LocaleContext);
+  if (!projects?.length) return null;
   return (
     <CollapsibleSection id="projects" heading={localeContext.strings.projects}>
       <div className="space-y-2">

@@ -1,4 +1,4 @@
-import type { Volunteer } from "./interfaces";
+import type { VolunteerWithKeys } from "./interfaces";
 import CollapsibleSection from "./CollapsibleSection";
 import ExternalLink from "./ExternalLink";
 import DateRange from "./DateRange";
@@ -9,10 +9,10 @@ import OpacityFilter from "./OpacityFilter";
 export default function SectionVolunteer({
   volunteer,
 }: {
-  volunteer: Volunteer[] | undefined;
+  volunteer: VolunteerWithKeys[] | undefined;
 }) {
-  if (!volunteer?.length) return null;
   const localeContext = useContext(LocaleContext);
+  if (!volunteer?.length) return null;
   return (
     <CollapsibleSection
       id="volunteer"
@@ -38,14 +38,11 @@ export default function SectionVolunteer({
               </p>
               <p>{work.summary}</p>
               <ul className="list-disc pl-4">
-                {(
-                  (work.highlights as unknown as {
-                    key: string;
-                    value: string;
-                  }[]) ?? []
-                ).map((highlight: { key: string; value: string }) => (
-                  <li key={highlight.key}>{highlight.value}</li>
-                ))}
+                {(work.highlights ?? []).map(
+                  (highlight: { key: string; value: string }) => (
+                    <li key={highlight.key}>{highlight.value}</li>
+                  )
+                )}
               </ul>
             </OpacityFilter>
           </section>

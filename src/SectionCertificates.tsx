@@ -11,8 +11,8 @@ export default function SectionCertificates({
 }: {
   certificates: Certificate[] | undefined;
 }) {
-  if (!certificates?.length) return null;
   const localeContext = useContext(LocaleContext);
+  if (!certificates?.length) return null;
   const locale = localeContext.locale;
   return (
     <CollapsibleSection id="certs" heading={localeContext.strings.certificates}>

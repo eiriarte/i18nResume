@@ -1,4 +1,4 @@
-import type { Education } from "./interfaces";
+import type { EducationWithKeys } from "./interfaces";
 import CollapsibleSection from "./CollapsibleSection";
 import ExternalLink from "./ExternalLink";
 import DateRange from "./DateRange";
@@ -9,10 +9,10 @@ import OpacityFilter from "./OpacityFilter";
 export default function SectionEducation({
   education,
 }: {
-  education: Education[] | undefined;
+  education: EducationWithKeys[] | undefined;
 }) {
-  if (!education?.length) return null;
   const localeContext = useContext(LocaleContext);
+  if (!education?.length) return null;
   const strings = localeContext.strings;
   return (
     <CollapsibleSection id="education" heading={strings.education}>
@@ -52,14 +52,11 @@ export default function SectionEducation({
                 )}
               </p>
               <ul className="list-disc pl-4">
-                {(
-                  (training.courses as unknown as {
-                    key: string;
-                    value: string;
-                  }[]) ?? []
-                ).map((course: { key: string; value: string }) => (
-                  <li key={course.key}>{course.value}</li>
-                ))}
+                {(training.courses ?? []).map(
+                  (course: { key: string; value: string }) => (
+                    <li key={course.key}>{course.value}</li>
+                  )
+                )}
               </ul>
             </section>
           </OpacityFilter>

@@ -9,8 +9,8 @@ export default function SectionReferences({
 }: {
   references: Reference[] | undefined;
 }) {
-  if (!references?.length) return null;
   const localeContext = useContext(LocaleContext);
+  if (!references?.length) return null;
   return (
     <CollapsibleSection id="refs" heading={localeContext.strings.references}>
       <ul className="list-disc pl-4">

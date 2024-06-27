@@ -10,8 +10,8 @@ export default function SectionLanguages({
 }: {
   languages: Language[] | undefined;
 }) {
-  if (!languages?.length) return null;
   const localeContext = useContext(LocaleContext);
+  if (!languages?.length) return null;
   return (
     <CollapsibleSection id="langs" heading={localeContext.strings.languages}>
       <div className="flex flex-wrap">

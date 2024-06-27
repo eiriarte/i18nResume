@@ -10,8 +10,8 @@ export default function SectionAwards({
 }: {
   awards: Award[] | undefined;
 }) {
-  if (!awards?.length) return null;
   const localeContext = useContext(LocaleContext);
+  if (!awards?.length) return null;
   const locale = localeContext.locale;
   return (
     <CollapsibleSection id="awards" heading={localeContext.strings.awards}>

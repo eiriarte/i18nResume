@@ -11,8 +11,8 @@ export default function SectionPublications({
 }: {
   publications: Publication[] | undefined;
 }) {
-  if (!publications?.length) return null;
   const localeContext = useContext(LocaleContext);
+  if (!publications?.length) return null;
   return (
     <CollapsibleSection id="pubs" heading={localeContext.strings.publications}>
       <ul className="list-disc pl-4">

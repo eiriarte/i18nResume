@@ -9,10 +9,10 @@ export default function SectionContact({
 }: {
   basics: Basics | undefined;
 }) {
+  const localeContext = useContext(LocaleContext);
   if (!basics?.email && !basics?.phone && !basics?.location) {
     return null;
   }
-  const localeContext = useContext(LocaleContext);
   const lang = localeContext.locale;
   return (
     <CollapsibleSection id="contact" heading={localeContext.strings.contact}>
