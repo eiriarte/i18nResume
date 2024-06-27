@@ -1,6 +1,6 @@
 {
   "name": "i18nresume",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component to render json-resume data in different languages.",
   "author": "Eduardo Iriarte Gahete",
   "type": "module",
