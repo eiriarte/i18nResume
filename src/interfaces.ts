@@ -53,6 +53,23 @@ export interface Work {
   [k: string]: unknown;
 }
 
+export interface WorkWithKeys {
+  name?: string;
+  location?: string;
+  description?: string;
+  position?: string;
+  url?: string;
+  startDate?: string;
+  endDate?: string;
+  summary?: string;
+  highlights?: {
+    key: string;
+    value: string;
+  }[];
+  keywords?: string[];
+  [k: string]: unknown;
+}
+
 export interface Publication {
   name?: string;
   publisher?: string;
@@ -77,6 +94,23 @@ export interface Project {
   [k: string]: unknown;
 }
 
+export interface ProjectWithKeys {
+  name?: string;
+  description?: string;
+  highlights?: {
+    key: string;
+    value: string;
+  }[];
+  keywords?: string[];
+  startDate?: string;
+  endDate?: string;
+  url?: string;
+  roles?: string[];
+  entity?: string;
+  type?: string;
+  [k: string]: unknown;
+}
+
 export interface Volunteer {
   organization?: string;
   position?: string;
@@ -85,6 +119,21 @@ export interface Volunteer {
   endDate?: string;
   summary?: string;
   highlights?: string[];
+  keywords?: string[];
+  [k: string]: unknown;
+}
+
+export interface VolunteerWithKeys {
+  organization?: string;
+  position?: string;
+  url?: string;
+  startDate?: string;
+  endDate?: string;
+  summary?: string;
+  highlights?: {
+    key: string;
+    value: string;
+  }[];
   keywords?: string[];
   [k: string]: unknown;
 }
@@ -107,6 +156,22 @@ export interface Education {
   endDate?: string;
   score?: string;
   courses?: string[];
+  keywords?: string[];
+  [k: string]: unknown;
+}
+
+export interface EducationWithKeys {
+  institution?: string;
+  url?: string;
+  area?: string;
+  studyType?: string;
+  startDate?: string;
+  endDate?: string;
+  score?: string;
+  courses?: {
+    key: string;
+    value: string;
+  }[];
   keywords?: string[];
   [k: string]: unknown;
 }
